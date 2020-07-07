@@ -10,30 +10,30 @@ const square = document.getElementById("mySquare");
 const button4 = document.getElementById("myButton4")
 
 button4.addEventListener("click", () => {
-    myDiv.style.backgroundColor = "blue"
+    myDiv.style.backgroundColor = "blue";
 })
 
-listArray[2].style.color = "red"
+listArray[2].style.color = "red";
 
 for (let i = 0; i < 4; i++) {
-    listArray[i].style.color = "red"
+    listArray[i].style.color = "red";
 }
 
 button1.addEventListener("click", () => {
-    listArray[1].style.color = "blue"
-    listArray[3].style.color = "blue"
+    listArray[1].style.color = "blue";
+    listArray[3].style.color = "blue";
 })
 
 button2.addEventListener("click", () => {
-    text.textContent = "world"
+    text.textContent = "world";
 })
 
 hench.addEventListener("mouseover", () => {
-    hench.src = "https://cdn.discordapp.com/attachments/642905072614899785/725699587460956211/coomer-2.png"
+    hench.src = "https://cdn.discordapp.com/attachments/642905072614899785/725699587460956211/coomer-2.png";
 })
 
 button3.addEventListener("click", () => {
-    console.log(input.value)
+    console.log(input.value);
     myDiv.style.backgroundColor = input.value;
 })
 
