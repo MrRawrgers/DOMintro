@@ -7,6 +7,11 @@ const input = document.getElementById("myInput")
 const button3 = document.getElementById("myButton3")
 const myDiv = document.getElementById("myDiv");
 const square = document.getElementById("mySquare");
+const button4 = document.getElementById("myButton4")
+
+button4.addEventListener("click", () => {
+    myDiv.style.backgroundColor = "blue"
+})
 
 listArray[2].style.color = "red"
 
