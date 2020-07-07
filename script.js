@@ -1,21 +1,3 @@
-// const myDiv = document.getElementById("myDiv");
-
-// myDiv.addEventListener("mouseover", () => {myDiv.style.backgroundColor = "blue";});
-
-// myDiv.addEventListener("click", () => {myDiv.style.borderRadius = "50%";});
-
-// const input = document.getElementById("myInput")
-// const button = document.getElementById("myButton")
-// const text = document.getElementById("title")
-
-
-
-// button.addEventListener("click", () => {
-//     text.textContent = input.value;
-// });
-
-
-
 const listArray = document.getElementsByTagName("li")
 const button1 = document.getElementById("myButton1")
 const button2 = document.getElementById("myButton2")
@@ -24,6 +6,7 @@ const hench = document.getElementById("henchMan")
 const input = document.getElementById("myInput")
 const button3 = document.getElementById("myButton3")
 const myDiv = document.getElementById("myDiv");
+const square = document.getElementById("mySquare");
 
 listArray[2].style.color = "red"
 
