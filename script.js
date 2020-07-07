@@ -15,7 +15,7 @@ button4.addEventListener("click", () => {
 
 listArray[2].style.color = "red";
 
-for (let i = 0; i < 4; i++) {
+for (let i = 0; i < listArray.length; i++) {
     listArray[i].style.color = "red";
 }
 
