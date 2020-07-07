@@ -1,13 +1,13 @@
-const listArray = document.getElementsByTagName("li")
-const button1 = document.getElementById("myButton1")
-const button2 = document.getElementById("myButton2")
-const text = document.getElementById("title")
-const hench = document.getElementById("henchMan")
-const input = document.getElementById("myInput")
-const button3 = document.getElementById("myButton3")
+const listArray = document.getElementsByTagName("li");
+const button1 = document.getElementById("myButton1");
+const button2 = document.getElementById("myButton2");
+const text = document.getElementById("title");
+const hench = document.getElementById("henchMan");
+const input = document.getElementById("myInput");
+const button3 = document.getElementById("myButton3");
 const myDiv = document.getElementById("myDiv");
 const square = document.getElementById("mySquare");
-const button4 = document.getElementById("myButton4")
+const button4 = document.getElementById("myButton4");
 
 button4.addEventListener("click", () => {
     myDiv.style.backgroundColor = "blue";
